@@ -26,6 +26,22 @@ When closing the connection, TCP follows a termination process:
 2. **FIN-ACK** – The receiver acknowledges the request to terminate the connection.
 3. **ACK** – The sender sends a final acknowledgment, and the connection is closed.
 
+## Common Use Cases of TCP
+
+TCP is used in applications where **reliability, accuracy, and ordered delivery of data** are more important than speed.
+
+Some common use cases include:
+
+* **Web Browsing (HTTP/HTTPS)** – Ensures complete and reliable delivery of web pages and resources.
+* **File Transfer (FTP, SFTP)** – Guarantees that files are transferred without corruption or missing data.
+* **Email Services (SMTP, POP3, IMAP)** – Ensures emails and attachments are delivered correctly.
+* **Secure Remote Access (SSH)** – Provides reliable communication for remote administration and command execution.
+* **Database Communication** – Maintains data integrity during transactions between applications and databases.
+* **Software Updates and Downloads** – Ensures applications and updates are downloaded completely and accurately.
+* **Cloud Storage and File Synchronization** – Guarantees files are uploaded and synchronized without data loss.
+* **Web APIs and REST Services** – Provides reliable communication between clients and servers.
+
+
 ---
 
 ## UDP
