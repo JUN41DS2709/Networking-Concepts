@@ -38,4 +38,4 @@ Computer A stores the mapping in its **ARP cache**:
 
 Computer A can now put the destination MAC address into **Ethernet frames** and send the traffic.
 
-![ARP Process](images/arp_process.png)
+![ARP Process](images/arp_process.jpg)
